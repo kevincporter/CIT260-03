@@ -8,6 +8,6 @@ package hangman;
  *
  * @author user
  */
-public class Hint {
+public class HiddenWordSpace {
   
 }
