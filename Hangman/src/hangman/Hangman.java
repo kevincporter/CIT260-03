@@ -12,6 +12,10 @@ import java.util.Scanner;
  */
 public class Hangman {
 
+  //Variables 
+    
+    
+    
   //Instant Variable
   String name;
   String instructions = "This is a game of Hangman \n\n"
@@ -27,6 +31,11 @@ public class Hangman {
     Hangman myGame = new Hangman();
     myGame.getName();
     myGame.displayHelp();
+    Gallow gallow = new Gallow ();
+    gallow.displayGallow();
+    gallow.displayWrongLetterBox();
+    
+    
     // TODO code application logic here
   }
   
